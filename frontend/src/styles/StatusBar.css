@@ -1,0 +1,61 @@
+#BoxStatus1{
+    text-align: center;
+    background-color: white;
+    color: white;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    /* margin-top: 3rem; */
+    /* margin-top: 0.5rem; */
+    margin-left: 1.5rem;
+    /* position: fixed; */
+    /* overflow: hidden; */
+    width: 20rem;
+}
+#BoxStatus2{
+    text-align: center;
+    background-color: white;
+    color: white;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    /* margin-top: 3rem; */
+    /* margin-top: 0.5rem; */
+    /* position: fixed; */
+    /* overflow: hidden; */
+    width: 10rem;
+}
+#BoxStatus3{
+    text-align: center;
+    background-color: white;
+    color: white;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    /* margin-top: 3rem; */
+    /* margin-top: 0.5rem; */
+    /* position: fixed; */
+    /* overflow: hidden; */
+    width: 10rem;
+}
+#BoxStatus4{
+    text-align: center;
+    background-color: white;
+    color: white;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    /* margin-top: 3rem; */
+    /* margin-top: 0.5rem; */
+    /* position: fixed; */
+    /* overflow: hidden; */
+    width: 20rem;
+    height: 5rem;
+}
+.box{
+    background-color: white;
+    color: white;
+    font-weight: 400;
+    /* text-align: center; */
+    align-items: center;
+}
+.labels{
+    color: black;
+    font-weight: 400;
+}
+.value{
+    color: black;
+    font-weight: 600;
+}

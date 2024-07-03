@@ -1,0 +1,121 @@
+#Form{
+    background-color: white;
+    box-shadow: 0 16px 32px rgba(0, 0, 0, 0.2);
+}
+
+.judul{
+    font-size: 1.5rem;
+    font-weight: 800;
+    /* margin-top: 0.5rem; */
+    /* margin-right: 2rem; */
+    margin-left: 2rem;
+}
+.judul-footer{
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+.columns-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.columns-footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#Logo{
+    width: 73px;
+    height: 95px;
+}
+#Logo-Footer{
+    width: 218px;
+    height: 286px;
+}
+
+#Label{
+    background-color: white;
+}
+#Input{
+    color: black;
+    background-color: white;
+}
+#Header{
+    align-items: start;
+    height: auto;
+    padding: 1.5rem;
+    margin-left: 3rem;
+}
+.select-custom {
+    color: #7b2424 !important; /* Warna teks */
+    background-color: #f5f5f5;
+    border: 2px solid #7b2424 !important; /* Outline warna merah */
+  }
+  .select-custom::placeholder{
+    color: #a8a8a8 !important;
+  }
+ /* formulir.css */
+.textarea-custom {
+    color: #7b2424; /* Warna teks */
+    background-color: #f5f5f5; /* Warna latar belakang */
+    border: 2px solid #7b2424; /* Warna garis pinggir */
+  }
+  
+  .textarea-custom::placeholder {
+    color: #6b6b6b; /* Mengubah warna placeholder menjadi abu-abu */
+  }
+  
+
+/* MEDIA QUERY MOBILE */
+@media only screen and (max-width: 600px) {
+.judul{
+    font-size: 0.7rem;
+    margin-right: 20%;
+}
+.judul-footer{
+    font-size: 0.5rem;
+    font-weight: 800;
+    /* margin-right: 1rem; */
+}
+
+#Header{
+    margin-left: 0;
+    align-items: start;
+}
+
+.columns-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#Logo{
+    width: 73px;
+    height: 95px;
+}
+
+#Footer{                
+    height: 5%;
+    padding: 0;
+}
+#Logo-Footer{
+    width: 109px;
+    height: 143px;
+    margin-bottom: 0;
+    margin-left: auto;
+}
+.columns-footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+}
+
+#Checkbox{
+    margin-left: 0.5rem;
+}
+
+
+
+
+}

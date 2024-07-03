@@ -1,0 +1,31 @@
+#BoxContent{
+    /* margin-top: 15rem; */
+    box-shadow: 0 16px 32px rgba(0, 0, 0, 0.2);
+    overflow: auto;
+    margin-left: 2rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    height: 80%;
+    position: relative;
+    /* top: 1rem; */
+    padding: 2%;
+    
+    /* margin-bottom: 1rem; */
+}
+#SectionContent{
+    overflow: auto;
+    max-height: 504px;
+    /* margin-top: 3rem; */
+}
+.card-content{
+    background-color: white;
+}
+.card-header{
+    background-color: white;
+}
+.card-header-title{
+    color: black;
+}
+/* .modal-card-head{
+    background-color: white;
+} */

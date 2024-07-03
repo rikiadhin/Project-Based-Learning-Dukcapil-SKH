@@ -1,0 +1,19 @@
+.custom-data-table .p-datatable-thead > tr > th,
+.custom-data-table .p-datatable-tbody > tr > td {
+    border: 2px solid #282828;  /* Thicker border */
+}
+
+.custom-data-table .p-datatable {
+    border-collapse: separate;  /* Use separate to manage individual cell borders */
+    border-spacing: 0;  /* No spacing between cells */
+    border-radius: 8px;  /* Rounded corners */
+    overflow: visible;  /* Ensure borders are visible */
+}
+
+.custom-card {
+    background-color: white;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(60, 60, 60, 0.1);
+    margin-bottom: 20px;
+}

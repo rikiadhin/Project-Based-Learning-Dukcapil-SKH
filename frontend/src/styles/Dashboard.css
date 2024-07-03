@@ -1,0 +1,103 @@
+
+/* Dashboard.css */
+
+.box {
+.box.has-background-white{
+    border: 2px solid rgb(168, 47, 47);
+    background-color: white;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.menu-list{
+    text-align: center;
+    align-items: center;
+    background-color: white;
+}
+
+.menu-list .subtitle {
+    font-weight: 600;
+    text-align: center;
+}
+
+.menu {
+    align-items: center;
+    row-gap: 3;
+    background-color: white;
+}
+
+.column .box-content {
+    border: 3px solid rgb(168, 47, 47);
+    max-width: 1400px;
+    height: 614px;
+    border-radius: 2%;
+    background-color: white;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.menu-list li button {
+    border: 4px solid rgb(86, 26, 26);
+    margin-bottom: 5px;
+    font-weight: 600;
+    text-align: center;
+    color: black;
+    background-color: white;
+}
+
+.menu-list .button:hover {
+    background: rgb(86, 26, 26);
+    color: white;
+}
+
+.button-logout {
+    font-weight: 600;
+    text-align: center;
+    color: white;
+    background-color: rgb(86, 26, 26);
+    width: 100px;
+    height: 40px;
+    border-radius: 5%;
+}
+
+.button.is-clicked {
+    color: white;
+    background-color: rgb(86, 26, 26);
+}
+
+/* Updated box-content styles */
+.box-content {
+    max-height: 400px; /* Adjust the height as needed */
+    overflow: auto;
+    padding: 1rem;
+    border: 3px solid rgb(168, 47, 47); /* Use the same border style */
+    background-color: white; /* Set background color to white */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for better visibility */
+}
+  }
+.column.is-4.box{
+    height: 800px;
+    background-color: white;
+}
+.box.stats{
+    background-color: white;
+    height: 100px;
+    border: 2px solid rgb(167, 159, 159);
+    color: black;
+    font-weight: bold;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.box.stats.ajuan{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.labels{
+    font-weight: 100;
+}
+.box-content {
+    max-height: 600px; /* Sesuaikan dengan tinggi yang diinginkan */
+    overflow-y: auto;
+    padding: 1rem; /* Tambahan padding jika diperlukan */
+  }
+  
+
+    

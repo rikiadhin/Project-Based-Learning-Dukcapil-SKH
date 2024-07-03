@@ -1,0 +1,108 @@
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    height: 100vh;
+    align-items: center;
+  }
+  
+  .images {
+    width: 20vw;
+    -webkit-animation: mover 2s infinite alternate;
+    animation: mover 2s infinite alternate; 
+    top: 2%; 
+    transform: translateX(-50%);
+    align-self: center;
+  }
+  
+  #allcontent {
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #search {
+    background-color: white;
+    margin-top: 20px;
+    width: 50vw;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+  }
+  #table {
+    background-color: white;
+    margin-top: 3px;
+    width: 50vw;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+  } 
+  html {
+    box-sizing: border-box;
+    font-size: 16px; /* Atur ukuran font dasar yang sesuai */
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  @-webkit-keyframes mover {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-20px);
+    }
+  }
+  @keyframes mover {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-20px);
+    }
+  }
+  @media (max-width: 768px) {
+    .images {
+      width: 60vw;
+      align-self: center;
+      align-items: center;
+      transform: translateX(-50%);
+    }
+    #search {
+      background-color: white;
+      margin-top: 20px;
+      width: 90vw;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    }
+    #table {
+      background-color: white;
+      margin-top: 1px;
+      width: 90vw;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    }
+    .hero {
+        background-attachment: fixed;
+    }
+  }
+  
+  /* Menyertakan aturan untuk memastikan kompatibilitas di semua perangkat */
+  @media screen and (max-width: 768px) {
+    .images {
+      width: 60vw;
+      align-self: center;
+      align-items: center;
+      transform: translateX(-50%);
+    }
+    #search {
+      background-color: white;
+      margin-top: 20px;
+      width: 90vw;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    }
+    #table {
+      background-color: white;
+      margin-top: 1px;
+      width: 90vw;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    }
+    .hero{
+        background-attachment: fixed;
+    }
+  }
